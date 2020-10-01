@@ -4,7 +4,7 @@
 
 //helper functions
 int generateArray(int* target,int size){
-    srand(time(NULL));   // Initialization
+    srand(100);   // Initialization
     for (int i = 0; i < size; i++){
         target[i] = rand()%1000;
         // printf("the number of index %d is: %d \n",i,target[i]);
@@ -58,7 +58,7 @@ int oddEvenSort(int* arr, int n){
 
 
 int main(int argc, char** argv){
-    int allSize = 11;
+    int allSize = 20;
     int* allArray = malloc(sizeof(int) * allSize);
     generateArray(allArray,allSize);
     printf("Sequential Odd-Even Transportation Sort Demo, ID: %d \n", 117010008);

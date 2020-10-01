@@ -37,7 +37,7 @@ int oddEvenSort(int* localArray,const int chunkSize,const int localRank, const i
     int myRight = (localRank + 1) % pnum;
     int myLeft = (localRank + pnum - 1) % pnum;
 
-    printf("the array to sort is: \n");
+    printf("ODD_EVEN_SORT: the array to sort is: \n");
     printArray(localArray,chunkSize);
     printf("\n");
 
@@ -71,11 +71,8 @@ int oddEvenSort(int* localArray,const int chunkSize,const int localRank, const i
                 }
             }
         }
-        
     }
 	
-
-    
     return 0;
 }
 
@@ -95,12 +92,11 @@ int main(int argc, char** argv){
 	MPI_Comm_size(MPI_COMM_WORLD, &pnum);
 
     int* globalArray = (int*) malloc(sizeof(int) * allSize);
+    
     //divisability check
     int divisable = allSize%pnum;
-    
 	chunkSize = allSize / pnum;
     
-
     if (rank == 0){
         generateArray(globalArray,allSize);
         printf("Parallel Odd-Even Transportation Sort Demo, ID: %d \n", 117010008);
@@ -108,11 +104,13 @@ int main(int argc, char** argv){
         printArray(globalArray,allSize);
         printf("\n");
     }
-    int* localArray = (int*) malloc(sizeof(int) * chunkSize);
+    // int* localArray = (int*) malloc(sizeof(int) * chunkSize);
+    int* localArray;
     
     clock_t startTime, endTime,duration; 
     startTime = clock(); 
     if (divisable == 0){
+        localArray = (int*) malloc(sizeof(int) * chunkSize);
         MPI_Scatter(globalArray, chunkSize, MPI_INT, localArray, chunkSize, MPI_INT, 0, comm);
 	    oddEvenSort(localArray,chunkSize, rank, allSize,pnum, comm);
 	    MPI_Gather(localArray, chunkSize, MPI_INT, globalArray, chunkSize, MPI_INT, 0, comm);
@@ -137,6 +135,8 @@ int main(int argc, char** argv){
         }
         
         int recvCount = (rank == pnum - 1) ? chunkSize + divisable : chunkSize;
+        localArray = (int*) malloc(sizeof(int) * recvCount);
+
         MPI_Scatterv(globalArray,sendCounts, displs, MPI_INT, localArray, recvCount, MPI_INT, 0, comm);
         oddEvenSort(localArray,sendCounts[rank], rank, allSize,pnum, comm);
         MPI_Gatherv(localArray, sendCounts[rank], MPI_INT, globalArray, sendCounts, displs, MPI_INT, 0, comm);
