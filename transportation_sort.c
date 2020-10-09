@@ -78,10 +78,14 @@ int oddEvenSort(int* localArray,const int chunkSize,const int localRank, const i
 
 int main(int argc, char** argv){
     // int* unsorted = generateArray(1000);
+    if (argc != 2){
+        printf("Please enter the array size in command line arguments!\n");
+        return 0;
+    }
     MPI_Comm comm;
 	int rank;
 	int pnum;
-	int allSize = 11;
+	int allSize = atoi(argv[1]);
 	int chunkSize = 0;
     int isOdd;
 
