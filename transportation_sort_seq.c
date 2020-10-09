@@ -58,7 +58,10 @@ int oddEvenSort(int* arr, int n){
 
 
 int main(int argc, char** argv){
-    int allSize = 20;
+    if (argc != 2){
+        return 0;
+    }
+    int allSize = atoi(argv[1]);
     int* allArray = malloc(sizeof(int) * allSize);
     generateArray(allArray,allSize);
     printf("Sequential Odd-Even Transportation Sort Demo, ID: %d \n", 117010008);

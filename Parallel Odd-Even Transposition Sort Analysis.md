@@ -187,9 +187,50 @@ if (divisable == 0){
 
 #### 3. Experiments
 
-In this section, we will demonstrate our experiment results and briefly explain its implications. There are mainly two variables in our experiment, the array length and the number of parallel processes. The testing environment is: 
+In this section, we will demonstrate our experiment results and briefly explain its implications. There are mainly two variables in our experiment, the array length and the number of parallel processes. 
+
+The local testing environment is: 
+
+OS: OS X 10.15.5
+
+Compiler: Apple clang version 12.0.0 (clang-1200.0.32.2)
+
+MPI: openMPI version 4.2.1
+
+How to run the parallel program in local setup: 
+
+1. `mpicc transportation_sort.c -o transportation_sort` or simply use the `make` command to use the make file in the repository.
+2. run the program with `mpirun -n $processNumber ./transportation_sort $numberOfArrayElements `
+
+This should give a sample out put like this: 
+
+<img src="/Users/ccjeff/Library/Application Support/typora-user-images/image-20201009225207304.png" alt="image-20201009225207304" style="zoom:50%;" />
+
+For the sequential program, the procedure is similar. Simply use `clang transportation_sort_seq.c -o seq.out` and then use `./seq $numberOfArrayElements` to run the program. The sample result is demonstrated here: 
+
+<img src="/Users/ccjeff/Library/Application Support/typora-user-images/image-20201010001344805.png" alt="image-20201010001344805" style="zoom:50%;" />
+
+The testing environment in server is: 
 
 <img src="/Users/ccjeff/Library/Application Support/typora-user-images/image-20201009170550991.png" alt="image-20201009170550991" style="zoom:50%;" />
+
+##### 3.1 environemnt testing
+
+First, we have tested the start up time in the MPI setting by simply clocking the time of 
+
+```C
+//clock here
+MPI_Init(&argc, &argv);
+
+comm = MPI_COMM_WORLD;
+MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+MPI_Comm_size(MPI_COMM_WORLD, &pnum);
+
+MPI_Finalize();
+//clock here
+```
+
+This is to record the start up time of the MPI library, where we have just initialized the number 
 
 
 
@@ -199,4 +240,6 @@ In this section, we will demonstrate our experiment results and briefly explain 
 
    http://selkie-macalester.org/csinparallel/modules/MPIProgramming/build/html/oddEvenSort/oddEven.html#merge-low-and-merge-high
 
-2. 
+2. MPI_scatterv
+
+   https://mpi.deino.net/mpi_functions/MPI_Scatterv.html
