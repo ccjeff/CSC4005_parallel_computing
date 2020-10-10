@@ -1,0 +1,12 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=5,mem=1g,walltime=00:30:00
+#PBS -q batch
+#PBS -m abe
+#PBS -V
+
+for ((pro=2; pro<=20; pro++))
+  do
+    echo "processor: $pro"
+    mpiexec -n $pro -f /home/mpi_config /code/117010008/env.out
+    echo -e "\n"
+done

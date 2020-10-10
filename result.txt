@@ -1,0 +1,758 @@
+processor: 2 arr_size: 20
+the parallel sort took 0.000076 seconds to execute
+
+
+processor: 2 arr_size: 10020
+the parallel sort took 0.217012 seconds to execute
+
+
+processor: 2 arr_size: 20020
+the parallel sort took 0.883058 seconds to execute
+
+
+processor: 2 arr_size: 30020
+the parallel sort took 1.766123 seconds to execute
+
+
+processor: 2 arr_size: 40020
+the parallel sort took 2.960215 seconds to execute
+
+
+processor: 2 arr_size: 50020
+the parallel sort took 5.215498 seconds to execute
+
+
+processor: 2 arr_size: 60020
+the parallel sort took 7.408641 seconds to execute
+
+
+processor: 2 arr_size: 70020
+the parallel sort took 9.653030 seconds to execute
+
+
+processor: 2 arr_size: 80020
+the parallel sort took 12.944539 seconds to execute
+
+
+processor: 2 arr_size: 90020
+the parallel sort took 16.060315 seconds to execute
+
+
+processor: 3 arr_size: 20
+the parallel sort took 0.000068 seconds to execute
+
+
+processor: 3 arr_size: 10020
+the parallel sort took 0.164298 seconds to execute
+
+
+processor: 3 arr_size: 20020
+the parallel sort took 0.602166 seconds to execute
+
+
+processor: 3 arr_size: 30020
+the parallel sort took 1.427372 seconds to execute
+
+
+processor: 3 arr_size: 40020
+the parallel sort took 2.623953 seconds to execute
+
+
+processor: 3 arr_size: 50020
+the parallel sort took 3.792779 seconds to execute
+
+
+processor: 3 arr_size: 60020
+the parallel sort took 5.149214 seconds to execute
+
+
+processor: 3 arr_size: 70020
+the parallel sort took 7.453504 seconds to execute
+
+
+processor: 3 arr_size: 80020
+the parallel sort took 9.931380 seconds to execute
+
+
+processor: 3 arr_size: 90020
+the parallel sort took 12.361158 seconds to execute
+
+
+processor: 4 arr_size: 20
+the parallel sort took 0.000095 seconds to execute
+
+
+processor: 4 arr_size: 10020
+the parallel sort took 0.132268 seconds to execute
+
+
+processor: 4 arr_size: 20020
+the parallel sort took 0.449632 seconds to execute
+
+
+processor: 4 arr_size: 30020
+the parallel sort took 1.088909 seconds to execute
+
+
+processor: 4 arr_size: 40020
+the parallel sort took 1.848200 seconds to execute
+
+
+processor: 4 arr_size: 50020
+the parallel sort took 2.881974 seconds to execute
+
+
+processor: 4 arr_size: 60020
+the parallel sort took 4.445975 seconds to execute
+
+
+processor: 4 arr_size: 70020
+the parallel sort took 5.872546 seconds to execute
+
+
+processor: 4 arr_size: 80020
+the parallel sort took 7.401488 seconds to execute
+
+
+processor: 4 arr_size: 90020
+the parallel sort took 9.510444 seconds to execute
+
+
+processor: 5 arr_size: 20
+the parallel sort took 0.000085 seconds to execute
+
+
+processor: 5 arr_size: 10020
+the parallel sort took 0.110193 seconds to execute
+
+
+processor: 5 arr_size: 20020
+the parallel sort took 0.452997 seconds to execute
+
+
+processor: 5 arr_size: 30020
+the parallel sort took 0.834891 seconds to execute
+
+
+processor: 5 arr_size: 40020
+the parallel sort took 1.526575 seconds to execute
+
+
+processor: 5 arr_size: 50020
+the parallel sort took 2.435624 seconds to execute
+
+
+processor: 5 arr_size: 60020
+the parallel sort took 3.203485 seconds to execute
+
+
+processor: 5 arr_size: 70020
+the parallel sort took 4.206867 seconds to execute
+
+
+processor: 5 arr_size: 80020
+the parallel sort took 5.629100 seconds to execute
+
+
+processor: 5 arr_size: 90020
+the parallel sort took 6.705629 seconds to execute
+
+
+processor: 6 arr_size: 20
+the parallel sort took 0.006141 seconds to execute
+
+
+processor: 6 arr_size: 10020
+the parallel sort took 0.817099 seconds to execute
+
+
+processor: 6 arr_size: 20020
+the parallel sort took 3.812997 seconds to execute
+
+
+processor: 6 arr_size: 30020
+the parallel sort took 5.139279 seconds to execute
+
+
+processor: 6 arr_size: 40020
+the parallel sort took 4.245116 seconds to execute
+
+
+processor: 6 arr_size: 50020
+the parallel sort took 9.455789 seconds to execute
+
+
+processor: 6 arr_size: 60020
+the parallel sort took 9.231965 seconds to execute
+
+
+processor: 6 arr_size: 70020
+the parallel sort took 9.924970 seconds to execute
+
+
+processor: 6 arr_size: 80020
+the parallel sort took 12.983717 seconds to execute
+
+
+processor: 6 arr_size: 90020
+the parallel sort took 20.218979 seconds to execute
+
+
+processor: 7 arr_size: 20
+the parallel sort took 0.004705 seconds to execute
+
+
+processor: 7 arr_size: 10020
+the parallel sort took 0.803853 seconds to execute
+
+
+processor: 7 arr_size: 20020
+the parallel sort took 3.000806 seconds to execute
+
+
+processor: 7 arr_size: 30020
+the parallel sort took 2.831754 seconds to execute
+
+
+processor: 7 arr_size: 40020
+the parallel sort took 3.618721 seconds to execute
+
+
+processor: 7 arr_size: 50020
+the parallel sort took 6.100593 seconds to execute
+
+
+processor: 7 arr_size: 60020
+the parallel sort took 6.649908 seconds to execute
+
+
+processor: 7 arr_size: 70020
+the parallel sort took 10.221602 seconds to execute
+
+
+processor: 7 arr_size: 80020
+the parallel sort took 10.671437 seconds to execute
+
+
+processor: 7 arr_size: 90020
+the parallel sort took 10.896795 seconds to execute
+
+
+processor: 8 arr_size: 20
+the parallel sort took 0.006517 seconds to execute
+
+
+processor: 8 arr_size: 10020
+the parallel sort took 0.677050 seconds to execute
+
+
+processor: 8 arr_size: 20020
+the parallel sort took 1.556861 seconds to execute
+
+
+processor: 8 arr_size: 30020
+the parallel sort took 2.355393 seconds to execute
+
+
+processor: 8 arr_size: 40020
+the parallel sort took 3.532954 seconds to execute
+
+
+processor: 8 arr_size: 50020
+the parallel sort took 5.330434 seconds to execute
+
+
+processor: 8 arr_size: 60020
+the parallel sort took 5.662843 seconds to execute
+
+
+processor: 8 arr_size: 70020
+the parallel sort took 7.171002 seconds to execute
+
+
+processor: 8 arr_size: 80020
+the parallel sort took 8.692502 seconds to execute
+
+
+processor: 8 arr_size: 90020
+the parallel sort took 10.695616 seconds to execute
+
+
+processor: 9 arr_size: 20
+the parallel sort took 0.010503 seconds to execute
+
+
+processor: 9 arr_size: 10020
+the parallel sort took 0.810871 seconds to execute
+
+
+processor: 9 arr_size: 20020
+the parallel sort took 1.448761 seconds to execute
+
+
+processor: 9 arr_size: 30020
+the parallel sort took 3.124975 seconds to execute
+
+
+processor: 9 arr_size: 40020
+the parallel sort took 3.072150 seconds to execute
+
+
+processor: 9 arr_size: 50020
+the parallel sort took 3.592004 seconds to execute
+
+
+processor: 9 arr_size: 60020
+the parallel sort took 6.652678 seconds to execute
+
+
+processor: 9 arr_size: 70020
+the parallel sort took 8.596527 seconds to execute
+
+
+processor: 9 arr_size: 80020
+the parallel sort took 8.650050 seconds to execute
+
+
+processor: 9 arr_size: 90020
+the parallel sort took 10.704802 seconds to execute
+
+
+processor: 10 arr_size: 20
+the parallel sort took 0.020335 seconds to execute
+
+
+processor: 10 arr_size: 10020
+the parallel sort took 0.801811 seconds to execute
+
+
+processor: 10 arr_size: 20020
+the parallel sort took 1.364534 seconds to execute
+
+
+processor: 10 arr_size: 30020
+the parallel sort took 2.129701 seconds to execute
+
+
+processor: 10 arr_size: 40020
+the parallel sort took 3.175485 seconds to execute
+
+
+processor: 10 arr_size: 50020
+the parallel sort took 3.997450 seconds to execute
+
+
+processor: 10 arr_size: 60020
+the parallel sort took 4.878823 seconds to execute
+
+
+processor: 10 arr_size: 70020
+the parallel sort took 6.241592 seconds to execute
+
+
+processor: 10 arr_size: 80020
+the parallel sort took 7.129604 seconds to execute
+
+
+processor: 10 arr_size: 90020
+the parallel sort took 8.367585 seconds to execute
+
+
+processor: 11 arr_size: 20
+the parallel sort took 0.007309 seconds to execute
+
+
+processor: 11 arr_size: 10020
+the parallel sort took 1.453937 seconds to execute
+
+
+processor: 11 arr_size: 20020
+the parallel sort took 1.600250 seconds to execute
+
+
+processor: 11 arr_size: 30020
+the parallel sort took 15.947290 seconds to execute
+
+
+processor: 11 arr_size: 40020
+the parallel sort took 35.174850 seconds to execute
+
+
+processor: 11 arr_size: 50020
+the parallel sort took 6.054685 seconds to execute
+
+
+processor: 11 arr_size: 60020
+the parallel sort took 8.761895 seconds to execute
+
+
+processor: 11 arr_size: 70020
+the parallel sort took 7.971916 seconds to execute
+
+
+processor: 11 arr_size: 80020
+the parallel sort took 59.867418 seconds to execute
+
+
+processor: 11 arr_size: 90020
+the parallel sort took 99.745716 seconds to execute
+
+
+processor: 12 arr_size: 20
+the parallel sort took 0.034258 seconds to execute
+
+
+processor: 12 arr_size: 10020
+the parallel sort took 1.016861 seconds to execute
+
+
+processor: 12 arr_size: 20020
+the parallel sort took 1.816320 seconds to execute
+
+
+processor: 12 arr_size: 30020
+the parallel sort took 2.583075 seconds to execute
+
+
+processor: 12 arr_size: 40020
+the parallel sort took 4.090419 seconds to execute
+
+
+processor: 12 arr_size: 50020
+the parallel sort took 7.037397 seconds to execute
+
+
+processor: 12 arr_size: 60020
+the parallel sort took 10.415615 seconds to execute
+
+
+processor: 12 arr_size: 70020
+the parallel sort took 8.004676 seconds to execute
+
+
+processor: 12 arr_size: 80020
+the parallel sort took 13.092315 seconds to execute
+
+
+processor: 12 arr_size: 90020
+the parallel sort took 105.253024 seconds to execute
+
+
+processor: 13 arr_size: 20
+the parallel sort took 0.053112 seconds to execute
+
+
+processor: 13 arr_size: 10020
+the parallel sort took 0.981423 seconds to execute
+
+
+processor: 13 arr_size: 20020
+the parallel sort took 1.746101 seconds to execute
+
+
+processor: 13 arr_size: 30020
+the parallel sort took 4.124816 seconds to execute
+
+
+processor: 13 arr_size: 40020
+the parallel sort took 3.218215 seconds to execute
+
+
+processor: 13 arr_size: 50020
+the parallel sort took 7.097728 seconds to execute
+
+
+processor: 13 arr_size: 60020
+the parallel sort took 7.089168 seconds to execute
+
+
+processor: 13 arr_size: 70020
+the parallel sort took 16.885653 seconds to execute
+
+
+processor: 13 arr_size: 80020
+the parallel sort took 9.293243 seconds to execute
+
+
+processor: 13 arr_size: 90020
+the parallel sort took 11.213573 seconds to execute
+
+
+processor: 14 arr_size: 20
+the parallel sort took 0.009134 seconds to execute
+
+
+processor: 14 arr_size: 10020
+the parallel sort took 0.876224 seconds to execute
+
+
+processor: 14 arr_size: 20020
+the parallel sort took 2.376057 seconds to execute
+
+
+processor: 14 arr_size: 30020
+the parallel sort took 2.773930 seconds to execute
+
+
+processor: 14 arr_size: 40020
+the parallel sort took 5.348567 seconds to execute
+
+
+processor: 14 arr_size: 50020
+the parallel sort took 4.758019 seconds to execute
+
+
+processor: 14 arr_size: 60020
+the parallel sort took 5.609411 seconds to execute
+
+
+processor: 14 arr_size: 70020
+the parallel sort took 7.052591 seconds to execute
+
+
+processor: 14 arr_size: 80020
+the parallel sort took 18.836019 seconds to execute
+
+
+processor: 14 arr_size: 90020
+the parallel sort took 9.362613 seconds to execute
+
+
+processor: 15 arr_size: 20
+the parallel sort took 0.010817 seconds to execute
+
+
+processor: 15 arr_size: 10020
+the parallel sort took 0.893649 seconds to execute
+
+
+processor: 15 arr_size: 20020
+the parallel sort took 1.519996 seconds to execute
+
+
+processor: 15 arr_size: 30020
+the parallel sort took 2.952147 seconds to execute
+
+
+processor: 15 arr_size: 40020
+the parallel sort took 3.014965 seconds to execute
+
+
+processor: 15 arr_size: 50020
+the parallel sort took 4.103301 seconds to execute
+
+
+processor: 15 arr_size: 60020
+the parallel sort took 4.765862 seconds to execute
+
+
+processor: 15 arr_size: 70020
+the parallel sort took 6.580044 seconds to execute
+
+
+processor: 15 arr_size: 80020
+the parallel sort took 7.567894 seconds to execute
+
+
+processor: 15 arr_size: 90020
+the parallel sort took 8.432499 seconds to execute
+
+
+processor: 16 arr_size: 20
+the parallel sort took 0.007178 seconds to execute
+
+
+processor: 16 arr_size: 10020
+the parallel sort took 0.924418 seconds to execute
+
+
+processor: 16 arr_size: 20020
+the parallel sort took 2.485754 seconds to execute
+
+
+processor: 16 arr_size: 30020
+the parallel sort took 3.105761 seconds to execute
+
+
+processor: 16 arr_size: 40020
+the parallel sort took 23.714613 seconds to execute
+
+
+processor: 16 arr_size: 50020
+the parallel sort took 27.090972 seconds to execute
+
+
+processor: 16 arr_size: 60020
+the parallel sort took 9.373745 seconds to execute
+
+
+processor: 16 arr_size: 70020
+the parallel sort took 12.991365 seconds to execute
+
+
+processor: 16 arr_size: 80020
+the parallel sort took 20.915833 seconds to execute
+
+
+processor: 16 arr_size: 90020
+the parallel sort took 46.729422 seconds to execute
+
+
+processor: 17 arr_size: 20
+the parallel sort took 0.014447 seconds to execute
+
+
+processor: 17 arr_size: 10020
+the parallel sort took 1.273620 seconds to execute
+
+
+processor: 17 arr_size: 20020
+the parallel sort took 3.173686 seconds to execute
+
+
+processor: 17 arr_size: 30020
+the parallel sort took 3.748578 seconds to execute
+
+
+processor: 17 arr_size: 40020
+the parallel sort took 4.003297 seconds to execute
+
+
+processor: 17 arr_size: 50020
+the parallel sort took 8.739565 seconds to execute
+
+
+processor: 17 arr_size: 60020
+the parallel sort took 6.884822 seconds to execute
+
+
+processor: 17 arr_size: 70020
+the parallel sort took 16.117730 seconds to execute
+
+
+processor: 17 arr_size: 80020
+the parallel sort took 27.819376 seconds to execute
+
+
+processor: 17 arr_size: 90020
+the parallel sort took 21.740426 seconds to execute
+
+
+processor: 18 arr_size: 20
+the parallel sort took 0.034193 seconds to execute
+
+
+processor: 18 arr_size: 10020
+the parallel sort took 2.448541 seconds to execute
+
+
+processor: 18 arr_size: 20020
+the parallel sort took 2.030177 seconds to execute
+
+
+processor: 18 arr_size: 30020
+the parallel sort took 2.630298 seconds to execute
+
+
+processor: 18 arr_size: 40020
+the parallel sort took 4.515486 seconds to execute
+
+
+processor: 18 arr_size: 50020
+the parallel sort took 9.617183 seconds to execute
+
+
+processor: 18 arr_size: 60020
+the parallel sort took 6.911473 seconds to execute
+
+
+processor: 18 arr_size: 70020
+the parallel sort took 17.052889 seconds to execute
+
+
+processor: 18 arr_size: 80020
+the parallel sort took 9.321824 seconds to execute
+
+
+processor: 18 arr_size: 90020
+the parallel sort took 10.756387 seconds to execute
+
+
+processor: 19 arr_size: 20
+the parallel sort took 0.014416 seconds to execute
+
+
+processor: 19 arr_size: 10020
+the parallel sort took 1.079604 seconds to execute
+
+
+processor: 19 arr_size: 20020
+the parallel sort took 1.995716 seconds to execute
+
+
+processor: 19 arr_size: 30020
+the parallel sort took 4.380163 seconds to execute
+
+
+processor: 19 arr_size: 40020
+the parallel sort took 5.206457 seconds to execute
+
+
+processor: 19 arr_size: 50020
+the parallel sort took 10.324989 seconds to execute
+
+
+processor: 19 arr_size: 60020
+the parallel sort took 6.660479 seconds to execute
+
+
+processor: 19 arr_size: 70020
+the parallel sort took 8.018895 seconds to execute
+
+
+processor: 19 arr_size: 80020
+the parallel sort took 13.983260 seconds to execute
+
+
+processor: 19 arr_size: 90020
+the parallel sort took 11.219862 seconds to execute
+
+
+processor: 20 arr_size: 20
+the parallel sort took 0.032038 seconds to execute
+
+
+processor: 20 arr_size: 10020
+the parallel sort took 1.018702 seconds to execute
+
+
+processor: 20 arr_size: 20020
+the parallel sort took 1.936551 seconds to execute
+
+
+processor: 20 arr_size: 30020
+the parallel sort took 2.314793 seconds to execute
+
+
+processor: 20 arr_size: 40020
+the parallel sort took 4.445415 seconds to execute
+
+
+processor: 20 arr_size: 50020
+the parallel sort took 4.553694 seconds to execute
+
+
+processor: 20 arr_size: 60020
+the parallel sort took 9.378093 seconds to execute
+
+
+processor: 20 arr_size: 70020
+the parallel sort took 7.073147 seconds to execute
+
+
+processor: 20 arr_size: 80020
+the parallel sort took 17.306746 seconds to execute
+
+
+processor: 20 arr_size: 90020
+the parallel sort took 11.450429 seconds to execute

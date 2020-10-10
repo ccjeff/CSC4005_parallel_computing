@@ -214,9 +214,9 @@ The testing environment in server is:
 
 <img src="/Users/ccjeff/Library/Application Support/typora-user-images/image-20201009170550991.png" alt="image-20201009170550991" style="zoom:50%;" />
 
-##### 3.1 environemnt testing
+##### 3.1 startup testing
 
-First, we have tested the start up time in the MPI setting by simply clocking the time of 
+First, we have tested the start up time in the MPI setting by simply clocking the time of MPI_init. The procedue can be illustrated with the pseudo code.
 
 ```C
 //clock here
@@ -230,9 +230,23 @@ MPI_Finalize();
 //clock here
 ```
 
-This is to record the start up time of the MPI library, where we have just initialized the number 
+This is to record the start up time of the MPI library, where we have just initialized the processes. Before starting the experiment, we would like to show some properities of the MPI interface during it's startup period. We recorded the time for starting a process with the number of processors given. While there are multiple parallel processing initializing, we recorded the longest start up time in all the processes for each experiment of a fixed processor number.  This is because the longest startup time among all the parallel processes is the bottleneck for the system.
 
+The experiment result is shown as here:
 
+<img src="/Users/ccjeff/Desktop/4005/codes/startup.png" alt="startup" style="zoom:90%;" />
+
+Although the trend is not very clear in the figure due to the limited amount of processors given, we can observe that as the number of processor gets larger, the time spent at MPI initialize is longer. Thus, we can safely assume that increasing the number of parallel processes will also increase the MPI initialization overhead. Proper number of processes needs to be find out according to each specific problem.
+
+##### 3.2 communication testing
+
+In the second experiment, we record the time spent for each MPI_send()/MPI_recv() pair. This is determined by the communication environment of the system. The ways nodes are arranged have a direct impact on the system performance. The experiment is carried out according to the procedures in the pseudo code here:
+
+```
+
+```
+
+ 
 
 #### Reference
 
