@@ -4,9 +4,9 @@
 #PBS -m abe
 #PBS -V
 
-for ((pro=2; pro<=20; pro++))
+for ((size=20; size<=100000; size = size + 10000))
   do
-    echo "processor: $pro"
-    mpiexec -n $pro -f /home/mpi_config /code/117010008/env.out
+    echo "size: $size"
+    ./code/117010008/seq.out $size
     echo -e "\n"
 done
